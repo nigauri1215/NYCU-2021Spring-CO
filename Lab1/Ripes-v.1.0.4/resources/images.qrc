@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>logo.png</file>
+        <file>breakpoint_disabled.png</file>
+        <file>breakpoint_enabled.png</file>
+        <file>cpu.svg</file>
+        <file>graph.svg</file>
+        <file>server.svg</file>
+        <file>ram-memory.svg</file>
+        <file>binary-code.svg</file>
+        <file>info.svg</file>
+        <file>loadfile.svg</file>
+        <file>exit.svg</file>
+        <file>expand.svg</file>
+        <file>zoom-in.svg</file>
+        <file>zoom-out.svg</file>
+        <file>save.svg</file>
+        <file>spreadsheet.svg</file>
+        <file>documents.svg</file>
+        <file>logo.svg</file>
+        <file>file.svg</file>
+    </qresource>
+</RCC>

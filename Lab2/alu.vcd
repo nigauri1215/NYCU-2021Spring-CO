@@ -1,0 +1,67 @@
+$date
+	Sat Apr 03 18:20:02 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ALU_1bit_tb $end
+$var wire 1 ! sum $end
+$var wire 1 " carry $end
+$var reg 1 # Ainvert $end
+$var reg 1 $ Binvert $end
+$var reg 1 % Cin $end
+$var reg 1 & a $end
+$var reg 1 ' b $end
+$var reg 2 ( operation [1:0] $end
+$scope module UUT $end
+$var wire 1 # Ainvert $end
+$var wire 1 $ Binvert $end
+$var wire 1 % Cin $end
+$var wire 2 ) operation [1:0] $end
+$var wire 1 & src1 $end
+$var wire 1 ' src2 $end
+$var reg 1 " cout $end
+$var reg 1 ! result $end
+$var reg 1 * temp1 $end
+$var reg 1 + temp2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1+
+1*
+b0 )
+b0 (
+1'
+1&
+1%
+0$
+0#
+1"
+1!
+$end
+#21000
+0"
+0!
+0+
+0*
+b1 (
+b1 )
+0%
+0'
+0&
+#42000
+1"
+1!
+1+
+1*
+b11 (
+b11 )
+1%
+1#
+1'
+#63000

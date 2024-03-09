@@ -1,0 +1,38 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000025f62262b40 .scope module, "ALU_1bit" "ALU_1bit" 2 7;
+ .timescale -9 -12;
+    .port_info 0 /INPUT 1 "src1";
+    .port_info 1 /INPUT 1 "src2";
+    .port_info 2 /INPUT 1 "Ainvert";
+    .port_info 3 /INPUT 1 "Binvert";
+    .port_info 4 /INPUT 1 "Cin";
+    .port_info 5 /INPUT 2 "operation";
+    .port_info 6 /OUTPUT 1 "result";
+    .port_info 7 /OUTPUT 1 "cout";
+o0000025f62296fb8 .functor BUFZ 1, C4<z>; HiZ drive
+v0000025f62262cd0_0 .net "Ainvert", 0 0, o0000025f62296fb8;  0 drivers
+o0000025f62296fe8 .functor BUFZ 1, C4<z>; HiZ drive
+v0000025f62262d70_0 .net "Binvert", 0 0, o0000025f62296fe8;  0 drivers
+o0000025f62297018 .functor BUFZ 1, C4<z>; HiZ drive
+v0000025f62262e10_0 .net "Cin", 0 0, o0000025f62297018;  0 drivers
+v0000025f6235d5d0_0 .var "cout", 0 0;
+o0000025f62297078 .functor BUFZ 2, C4<zz>; HiZ drive
+v0000025f6235d670_0 .net "operation", 1 0, o0000025f62297078;  0 drivers
+v0000025f6235d710_0 .var "result", 0 0;
+o0000025f622970d8 .functor BUFZ 1, C4<z>; HiZ drive
+v0000025f6235d7b0_0 .net "src1", 0 0, o0000025f622970d8;  0 drivers
+o0000025f62297108 .functor BUFZ 1, C4<z>; HiZ drive
+v0000025f6235d850_0 .net "src2", 0 0, o0000025f62297108;  0 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "alu_1bit.v";
